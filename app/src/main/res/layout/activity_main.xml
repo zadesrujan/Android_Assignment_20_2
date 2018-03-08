@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fadb0d"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.android_assignment_20_2.MainActivity">
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="#ff0000"
+        android:background="#f9e7e7"
+        android:text="UPDATE CONTACT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonViewAll"
+        android:text="View All CONTACT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonADD"
+        android:layout_marginBottom="22dp"
+        android:text="ADD CONTACT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonViewAll"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/tv_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f1ede1"
+        android:textSize="20dp"
+        android:text="Contacts"
+        android:textColor="#f70e0e"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+</RelativeLayout>
